@@ -7,9 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import com.project.noteit.R
 import com.project.noteit.databinding.FragmentNoteDetailBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
-class noteDetailFragment : Fragment() {
+@AndroidEntryPoint
+class NoteDetailFragment : Fragment() {
     lateinit var binding: FragmentNoteDetailBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/noteDetailFragment"
-        android:name="com.project.noteit.note.noteDetailFragment"
+        android:name="com.project.noteit.note.NoteDetailFragment"
         android:label="fragment_note_detail"
         tools:layout="@layout/fragment_note_detail" />
     <fragment
         android:id="@+id/noteListingFragment"
-        android:name="com.project.noteit.note.noteListingFragment"
+        android:name="com.project.noteit.note.NoteListingFragment"
         android:label="fragment_note_listing"
         tools:layout="@layout/fragment_note_listing" >
         <action

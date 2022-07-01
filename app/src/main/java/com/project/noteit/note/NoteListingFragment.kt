@@ -6,14 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.ViewModel
-import com.project.noteit.R
 import com.project.noteit.databinding.FragmentNoteListingBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-class noteListingFragment : Fragment() {
+@AndroidEntryPoint
+class NoteListingFragment : Fragment() {
 
     lateinit var binding: FragmentNoteListingBinding
-    val viewModel: noteViewModel by viewModels()
+    val viewModel: NoteViewModel by viewModels()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
